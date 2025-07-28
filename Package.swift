@@ -16,7 +16,7 @@ let package = Package(
             targets: ["DTCoreText"])
     ],
     dependencies: [
-        .package(url: "https://github.com/NathanWalker/DTFoundation.git", .branch("fix/dedupe-zip")),
+        .package(url: "https://github.com/NathanWalker/DTFoundation.git", from: "2.0.0"),
     ],
     targets: [
         .target(
